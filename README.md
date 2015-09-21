@@ -17,7 +17,4 @@ Every text element (colorful or not) will reset background color
 
 Sample above will have following output:
 
-```javascript
-<span style="color:red; background-color: yellow">Red title: </span><span>Sample title param</span>
-<span style="color:green;">Body: </span><span>Sample body param</span>
-```
+![Alt text](https://dl.dropboxusercontent.com/u/4557819/pretty_printer_sample.png "Sample output screenshot")
