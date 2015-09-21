@@ -1,4 +1,4 @@
-package prettyPrinter
+package prettyprinter
 
 import "fmt"
 

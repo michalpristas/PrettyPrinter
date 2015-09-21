@@ -1,4 +1,4 @@
-package prettyPrinter
+package prettyprinter
 
 const (
 	none        string = "\x1b[0m"
