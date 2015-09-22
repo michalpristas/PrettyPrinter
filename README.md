@@ -10,10 +10,10 @@ Pretty Printer simpyfies writing colorful output to command line providing simpl
 
 With this API you can do:
 ```Go
-	fmt.Printf(prettyPrinter.New().
+	fmt.Print(prettyPrinter.New().
 		BgYellow().BoldRed("Red title: ").Text("%s: \n").
 		BoldGreen("Body: ").Text("%s\n").
-		Format("Sample title param", "Sample body param").String())
+		Format("Sample title param", "Sample body param"))
 ```
 
 Every text element (colorful or not) will reset background color
